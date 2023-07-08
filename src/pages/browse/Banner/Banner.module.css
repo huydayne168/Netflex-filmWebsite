@@ -1,0 +1,55 @@
+.banner {
+    height: 32rem;
+    position: relative;
+    z-index: 0;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 32%;
+}
+
+.details {
+    position: absolute;
+    bottom: 6rem;
+    left: 4rem;
+    color: #fff;
+}
+
+.details h2 {
+    font-size: 2.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.actions {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.actions button {
+    border: none;
+    outline: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    background-color: #1f191da3;
+    color: #fff;
+    transition: all 400ms ease;
+}
+
+.actions button:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.desc {
+    max-width: 32rem;
+    font-size: 1.4;
+    color: #eee;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

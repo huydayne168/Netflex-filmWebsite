@@ -1,0 +1,38 @@
+.movie-detail {
+    margin-top: 2.4rem;
+    display: flex;
+    gap: 3.2rem;
+    color: #fff;
+}
+
+.movie-detail em {
+    display: block;
+    font-weight: 600;
+}
+
+.overview {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.desc h2 {
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 0.4rem;
+}
+
+.desc,
+.trailer {
+    flex: 1 0;
+}
+
+.trailer {
+    text-align: center;
+}
+
+.trailer img {
+    /* width: 100%; */
+    height: 100%;
+    object-fit: contain;
+}
