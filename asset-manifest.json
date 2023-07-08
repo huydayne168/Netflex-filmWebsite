@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Netflex-filmWebsite/static/css/main.64a6ad38.css",
+    "main.js": "/Netflex-filmWebsite/static/js/main.083d9f1b.js",
+    "index.html": "/Netflex-filmWebsite/index.html",
+    "main.64a6ad38.css.map": "/Netflex-filmWebsite/static/css/main.64a6ad38.css.map",
+    "main.083d9f1b.js.map": "/Netflex-filmWebsite/static/js/main.083d9f1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64a6ad38.css",
+    "static/js/main.083d9f1b.js"
+  ]
+}
